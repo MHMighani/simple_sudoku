@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+#check, #new {
+    width: 60px;
+    height: 30px;
+    border: none;
+    border-radius: 7px;
+}
+
+#check {
+    position: absolute;
+    top: 115px;
+    left: 300px;
+    background-color: #42F766;
+}
+
+#new {
+    position: absolute;
+    top: 115px;
+    left: 370px;
+    background-color: #7AACD2;
+}
+
+.cell {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: #DDD;
+    border: 1px solid #999;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 50%;
+    color: #222;
+    font-weight: 500;
+}
+
+.cell:focus {
+    outline: none;
+    background-color: #FFF;
+    border: 2px solid #666;
+}
